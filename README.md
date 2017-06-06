@@ -25,7 +25,7 @@ For all arrays, if a value is not present, the default is 200.
 
 To retrieve data, simply call GetData:
 
--void GetData(const char *channelNum, uint8_t field, uint16_t yy, uint8_t mm, uint8_t dd);
+void GetData(const char *channelNum, uint8_t field, uint16_t yy, uint8_t mm, uint8_t dd);
    Get data from a specific day (from 00:00:00 to 23:59:59)
    channelNum: ThingSpeak channel number
    field: field number
@@ -33,7 +33,7 @@ To retrieve data, simply call GetData:
    mm: month
    dd: day
 
--void GetData(const char *channelNum, uint8_t field, uint16_t yy, uint8_t mm);
+void GetData(const char *channelNum, uint8_t field, uint16_t yy, uint8_t mm);
    Get data from a month 
    channelNum: ThingSpeak channel number
    field: field number
