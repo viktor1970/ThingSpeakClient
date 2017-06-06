@@ -31,7 +31,7 @@ TSClient::TSClient() {;}
 
 
 void TSClient::GetData(const char *channelNum, uint8_t field, uint16_t yy, uint8_t mm, uint8_t dd) {
-  char url[140], f[7];
+  char url[140];
 
   sprintf(field_c,"field%d",field);
   field_n=field;
@@ -46,7 +46,7 @@ void TSClient::GetData(const char *channelNum, uint8_t field, uint16_t yy, uint8
 }
 
 void TSClient::GetData(const char *channelNum, uint8_t field, uint16_t yy, uint8_t mm) {
-  char url[140], f[7];
+  char url[140];
 
   sprintf(field_c,"field%d",field);
   field_n=field;
