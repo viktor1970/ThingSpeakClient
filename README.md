@@ -48,5 +48,5 @@ Further improvements in the future
 
 ## License
 
-This code is available under the MIT license, which basically means that you can use, modify the distribute the code as long as you give credits to me (and Salsify) and add a reference back to this repository.
+This code is available under the MIT license, which basically means that you can use, modify the distribute the code as long as you give credits to me (and Daniel) and add a reference back to this repository.
 
